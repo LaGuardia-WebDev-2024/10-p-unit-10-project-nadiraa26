@@ -6,12 +6,13 @@ setup = function() {
   background(0,0,0,0);
 
   //for(start; how long; change)
-  for (var x=0; x<300; x+40) {
+  for (var x=0; x<300; x+=40) {
     line(0, x, 300, x)
+    textSize(30);
   }
 
-  for(var i = 55; i < 350 ; i+40 ){
-    text('🍰',50, i);
+  for(var i = 55; i < 350 ; i+=90 ){
+    text('🍰',60, i);
   }
 
   var crossiantX = 60;
