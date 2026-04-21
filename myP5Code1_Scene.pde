@@ -45,9 +45,11 @@ textSize(15);
 
 draw = function(){   
 
+if(mousePressed)
+text("Cake",random(0,600),random(0,400));
 }
 
 
-mouseClicked = function(){
+ifmouseClicked = function(){
 
 }
